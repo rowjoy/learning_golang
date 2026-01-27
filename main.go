@@ -8,8 +8,9 @@ import (
 
 func main() {
 
-	runuserinformation()
-	checkNumber(10)
+	// runuserinformation()
+	// checkNumber(10)
+	interviewOne()
 	var result = mathlib.Add(4, 4)
 	fmt.Println("Addition Result:", result)
 }
