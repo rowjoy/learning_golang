@@ -23,10 +23,19 @@ func main() {
 
 	// anonymous function
 	// Immediately Invoked Function Expression
+	//Function Expression
+
 	func(a, b int) {
 		c := a + b
 		fmt.Println(c)
 	}(2, 4)
+
+	add := func(r, t, q int) {
+		x := r + t*q
+		fmt.Println(x)
+	}
+
+	add(2, 4, 6)
 
 }
 
