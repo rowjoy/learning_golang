@@ -10,33 +10,31 @@ func main() {
 
 	// runuserinformation()
 	// checkNumber(10)
-	interviewOne()
+	// interviewOne()
 	var result = mathlib.Add(4, 4)
 	fmt.Println("Addition Result:", result)
+
+	x := 10 // expression
+	fmt.Println(x)
+
+	if x > 0 { // if expression
+		fmt.Println("X is greater then 0")
+	}
+
+	// anonymous function
+	// Immediately Invoked Function Expression
+	func(a, b int) {
+		c := a + b
+		fmt.Println(c)
+	}(2, 4)
+
 }
 
-func runuserinformation() {
-	// print welcome message
-	fmt.Println("Welcome to the User Information Program")
-	var name string
-	var age int
-	var email string
-
-	// Get user input
-	fmt.Print("Enter your name: ")
-	fmt.Scanln(&name)
-
-	fmt.Print("Enter your age: ")
-	fmt.Scanln(&age)
-
-	fmt.Print("Enter your email: ")
-	fmt.Scanln(&email)
-
-	// Display user information
-	fmt.Println("\nUser Information:")
-	fmt.Println("Name:", name)
-	fmt.Println("Age:", age)
-	fmt.Println("Email:", email)
+// First invoked (call) function
+func init() {
+	fmt.Println("Hello i am is jamirul islam")
 }
 
-//https://youtu.be/QHmi0VUz5Sk?si=REsiYOj4s4ufgdAb
+// https://youtu.be/5vTZqDv6Uis?si=lGBaxxujmGvctWWL -
+
+//https://youtu.be/9iODfk6HMpM?si=SjAJyfg7bJjInDf4
