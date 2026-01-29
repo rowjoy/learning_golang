@@ -9,9 +9,10 @@ go run filename , other filename
 ```go mod init example.com / change any name 
 
 ``` Higher Order Function is callback function
-```
 
-// /[First Order Function Vs ]
+
+```
+/// [First Order Function Vs ]
 func addNumber(a, b int) {
 	c := a + b
 	fmt.Println(c)
@@ -22,7 +23,11 @@ func totalSum(a int, d int) {
 	fmt.Println(f)
 }
 
-// Higher Order Function
+Higher Order Function
+- parameter -> function
+- function return
+- both 
+
 func orocressOpration(x, i int, op func(a, b int)) {
 	op(x, i)
 }
@@ -43,5 +48,3 @@ func main() {
 	totalNumber(2, 4)
 
 }
-
-```
