@@ -11,7 +11,7 @@ go run filename , other filename
 ``` Higher Order Function is callback function
 
 
-```
+```css
 /// [First Order Function Vs ]
 func addNumber(a, b int) {
 	c := a + b
@@ -48,3 +48,4 @@ func main() {
 	totalNumber(2, 4)
 
 }
+```
