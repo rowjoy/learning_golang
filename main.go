@@ -81,16 +81,21 @@ func orocressOpration(x, i int, op func(a, b int)) {
 
 //  Higher Order Function return function
 
-func call() func(a int, b int) {
-	return addNumber
-}
+// func call() func(a int, b int) {
+// 	return addNumber
+// }
 
 /// Higher Order Function is callback function
 
-func main() {
-	orocressOpration(3, 4, addNumber)
-	orocressOpration(2, 3, totalSum)
-	totalNumber := call()
-	totalNumber(2, 4)
+// func main() {
+// 	orocressOpration(3, 4, addNumber)
+// 	orocressOpration(2, 3, totalSum)
+// 	totalNumber := call()
+// 	totalNumber(2, 4)
 
-}
+// }
+
+//End of Internal Memory
+// https://youtu.be/Kwu_4e6rwd4?si=ZZjGVW-NFvYveliW
+
+//https://youtu.be/J8G--D1tXqU?si=Xylf89RICeVhQz7T
