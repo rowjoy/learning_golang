@@ -48,4 +48,13 @@ func main() {
 	totalNumber(2, 4)
 
 }
+
+go run main.go => compile it => main => ./main 
+go build main.go => compile it => main 
+
+./main
+
+
+
+
 ```
