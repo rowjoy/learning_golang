@@ -56,20 +56,52 @@ func init() {
  =============================================
 
  **** Code Segment - store all finction code ********
+ ==========================================================
  [read only file add code segmint section]
-  x = 10 // const variable not change
+  x = 10 // const variable not change, const value read only
   outer = func() {}
-  show =  func() {}
+  ounter-anonymous-function-1 =  func() {} // Anonymous function
+  call = func() {}
+  main = func() {}
+  init = func() {} [First time call const value - init - main ]
 
 
 
 
 
 
- data Segment  - Store all data variable
- Stack - Stack frame - n time need code exexution
- Heap
 
+
+ ***** ---data Segment  - Store all data variable ****
+ =======================================================
+ var p = 100
+
+
+
+
+
+
+ *** Stack - Stack frame - n time need code exexution ***
+ ========================================================
+ Stack auto matic clean Up
+ -----------------------------
+ Stack Frame code exution
+
+
+
+
+
+ *** Heap *** Heap gerbase data outo clear GC- (Gerbase controller )
+ ===========================================
+
+ * Heap sotore use return function code & return function variable data
+ * Stack Frame call complete then close stack Frame but same function return data use local varibale then
+   Heap store return function code * return function use local variable [not use other function this data]
+
+[ Heap not store real function its store reference number to Code Segment because this function Anonymous function in Outer function ]
+
+ * Some stack Frame check Heap store data
+ * Anonymous function store use defult name
 
 
 
@@ -85,6 +117,14 @@ run binary file : ./closure
 
 
 
+
+Heap use case
+
+------------------------
+Any function return data then this function close & clear for ram .
+
+But Function reurn function then this function store Heap  RAM section use code secment referance
+return function use any local variable this variable store Heap Ram section
 
 
 
