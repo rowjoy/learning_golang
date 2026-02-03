@@ -55,6 +55,80 @@ go build main.go => compile it => main
 ./main
 
 
+✅ Topics Covered
+===========================
+Parameter VS Argument
+First order function
+Init function – you cannot call this; the computer calls this automatically
+Standard or named function
+Anonymous function
+IIFE – Immediately Invoked Function Expression
+Function expression or assign function in variable
+Higher order function or first class function (treated as first class)
+Callback function
+Closure – close over
+
+struct & REceiver function --- new 
+
+
+
+Variadic function 
+Defer function – last in, first out (LIFO)
+
++---------------------+
+|   Code Segment      |
++---------------------+
+|   Data Segment      |
++---------------------+
+|   Heap (GC)         |
++---------------------+
+|   Stack (Frame)     |
++---------------------+
+
+Code Segment (Text Segment)
+
+🔹 এখানে থাকে:
+
+প্রোগ্রামের machine code / instruction
+function এর actual code
+
+🔹 Feature:
+
+Read-only
+একবার load হলে change হয় না
+Data Segment
+
+🔹 এখানে থাকে:
+
+Global variable
+Static variable
+
+Data segment দুই ভাগে হয়:
+
+Initialized data
+Uninitialized data (BSS)
+
+
+Heap
+
+🔹 এখানে থাকে:
+Runtime এ dynamically allocated memory
+
+🔹 Feature:
+
+Manual / Automatic free
+Stack থেকে slow
+Size বড়
+
+
+One Line Summary
+
+Code Segment → Program instruction
+Data Segment → Global / static data
+Stack → Function + local variable
+Heap → Dynamic memory
+GC → Heap clean করে
+
 
 
 ```

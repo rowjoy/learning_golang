@@ -31,7 +31,7 @@ func call() {
 	intcr2()
 }
 
-func main() {
+func Colsuremain() { // It is main
 	call()
 }
 
