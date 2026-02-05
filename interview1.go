@@ -16,7 +16,7 @@ func interviewOne() {
 	fmt.Println("Outside if block:", a)
 }
 
-func main() {
+func mains() {
 	interviewOne()
 }
 
