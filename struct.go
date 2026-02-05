@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //	"fmt"
 
 type User struct {
@@ -7,23 +9,23 @@ type User struct {
 	Age  int
 }
 
-// func main() {
-// 	user := User{
-// 		Name: "Jamirul isla",
-// 		Age:  20,
-// 	}
-// 	fmt.Println("Name : ", user.Name)
-// 	fmt.Println("Age : ", user.Age)
+func mainss() {
+	user := User{
+		Name: "Jamirul isla",
+		Age:  20,
+	}
+	fmt.Println("Name : ", user.Name)
+	fmt.Println("Age : ", user.Age)
 
-// 	user2 := User{ // Instance or object
-// 		Name: "Rozi",
-// 		Age:  30,
-// 	}
+	user2 := User{ // Instance or object
+		Name: "Rozi",
+		Age:  30,
+	}
 
-// 	fmt.Println("Name : ", user2.Name)
-// 	fmt.Println("Age : ", user2.Age)
+	fmt.Println("Name : ", user2.Name)
+	fmt.Println("Age : ", user2.Age)
 
-// }
+}
 
 /*
 
