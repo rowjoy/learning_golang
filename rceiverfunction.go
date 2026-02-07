@@ -14,6 +14,9 @@ func printUserInfo(usr UserInfo) {
 	fmt.Println(usr.Name)
 	fmt.Println(usr.Age)
 	fmt.Println(usr.Village)
+	fmt.Println(usr.Name)
+	fmt.Println(usr.Age)
+	fmt.Println(usr.Village)
 }
 
 func main() {
